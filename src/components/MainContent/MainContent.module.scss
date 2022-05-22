@@ -1,0 +1,16 @@
+.mainSection {
+  // height: calc(100vh - (85.5px + 40px * 3 + 150px));
+  height: auto;
+}
+
+.mainSectionUl {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  // display: flex;
+  // flex-wrap: wrap;
+  // margin-right: -30px;
+  // margin-top: -30px;
+}
