@@ -1,7 +1,7 @@
 import styles from "./Header.module.scss";
 import { Container } from "../Container/Container";
 
-const Header = () => {
+export const Header = () => {
 	return (
 		<header>
 			<Container>
@@ -42,5 +42,3 @@ const Header = () => {
 		</header>
 	);
 };
-
-export default Header;
